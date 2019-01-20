@@ -28,3 +28,5 @@ EC2
  - userdata bash script for docker automated installtion on boot
  - attached the appropriate SG
  - automated provisioning into ALB
+
+Additionally an launch configuration and autoscaling can be added for increased high availability and fault tolerant infrastructure.
