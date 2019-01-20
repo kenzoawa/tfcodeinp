@@ -4,7 +4,7 @@ The terraform code creates :
 
 VPC 
  - private subnets in multiple AZ's
- - public subnetsin multiple AZ's
+ - public subnets in multiple AZ's
  - security groups for databases and web servers (ec2) and appropriate rules
  - NACL for public and private subnets and the rules with security best practices 
  - route tables for the public subnet
