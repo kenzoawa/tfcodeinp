@@ -10,7 +10,7 @@ VPC
  - route tables for the public subnet
  - internet gateway
  
-NAT is not included due to RDS no EC2 instances in the private subnet.
+NAT is not provisioned due to RDS no EC2 instances in the private subnet.
 
 ALB/ELB
  - multi-az for the public subnets
