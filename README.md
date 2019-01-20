@@ -29,4 +29,6 @@ EC2
  - attached the appropriate SG
  - automated provisioning into ALB
 
+Not included : terraform state file, vars.tf, provider.tf
+
 Additionally an launch configuration and autoscaling can be added for increased high availability and fault tolerant infrastructure.
