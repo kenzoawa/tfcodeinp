@@ -22,7 +22,7 @@ resource "aws_db_instance" "MariaDBdev" {
 #master username
   username               = "su"
 #password 
-  password               = "dummypwdfordb"
+  password               = "${var.DB_PASSWORD}"
   multi_az               = "false"
   parameter_group_name   = "default.mariadb10.3"
   skip_final_snapshot    = "true"
@@ -33,5 +33,5 @@ resource "aws_db_instance" "MariaDBdev" {
 
 tags {
 Name = "mariadb-instance"
-}
+ }
 }
