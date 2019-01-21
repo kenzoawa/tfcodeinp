@@ -25,7 +25,7 @@ RDS
  
 EC2
  - two linux ami t2.micro from marketplace
- - userdata bash script for docker automated installtion on boot
+ - userdata bash script for docker automated installtion on boot ( it's also possible to deploy HA application this way and define the connection string on boot time for RDS )
  - attached the appropriate SG
  - automated provisioning into ALB
 
